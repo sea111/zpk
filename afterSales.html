@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>正品控-售后服务</title>
+	</head>
+	<link rel="stylesheet" href="css/afterSales.css" />
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		window.addEventListener("resize",function(){
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		},false);
+	</script>
+	<body>
+		<div id="box">
+			<div class="top">
+				<i class="bg-icon back" id="back"></i>
+				<div>售后服务</div>
+			</div>
+			<div class="application-schedule">
+				<div class="common after-application">售后申请</div>
+				<div class="common aftermarket-schedule">售后进度</div>
+			</div>
+			<!--=================售后申请=================-->
+			<div id="application-content">
+				<div class="application-list">
+					<dl class="application">
+						<dt class="application-left"><img src="" class="icon-url"/></dt>
+						<dd class="character">
+							<p class="title"></p>
+							<p class="model"></p>
+						</dd>
+					</dl>
+					<div class="application-right">
+						<i class="line"></i>
+						<i class="telephone"></i>
+					</div>
+				</div>
+				<!--<div class="application-list">
+					<dl class="application">
+						<dt class="application-left"><img src="" class="icon-url"/></dt>
+						<dd class="character">
+							<p class="title">康森医疗设备</p>
+							<p class="model">NPD-4BS 家庭经济型</p>
+						</dd>
+					</dl>
+					<div class="application-right">
+						<i class="line"></i>
+						<i class="telephone"></i>
+					</div>
+				</div>-->
+			</div>
+			<!--=================售后进度=================-->
+			<div id="schedule-content">
+				<div class="schedule-list">
+					<div class="same schedule-top">
+						<div class="same schedule-title">
+							<div class="com work-number">工单编号：<span class="work"></span></div>
+							<div class="com service-time">服务时间：<span class="time"></span></div>
+						</div>
+						<div class="finish"></div>
+					</div>
+					<div class="schedule-bottom">
+						<dl class="schedule-bottom-left">
+							<dt class="schedule-left"><img src="" class="icon-url"/></dt>
+							<dd class="schedule-character">
+								<p class="schedule-name"></p>
+								<p class="schedule-model"></p>
+							</dd>
+						</dl>
+						<div class="schedule-bottom-right">
+							<span class="public evaluate">去评价</span>
+							<span class="public see-details">查看详情</span>
+							<span class="red"></span>
+						</div>
+					</div>
+				</div>
+				<!--<div class="schedule-list">
+					<div class="same schedule-top">
+						<div class="same schedule-title">
+							<div class="com work-number">工单编号：<span class="work">XXXX20160217XX</span></div>
+							<div class="com service-time">服务时间：<span class="time">2016-12-07 10: 51</span></div>
+						</div>
+						<div class="finish">已完成</div>
+					</div>
+					<div class="schedule-bottom">
+						<dl class="schedule-bottom-left">
+							<dt class="schedule-left"><img src="" class="icon-url"/></dt>
+							<dd class="schedule-character">
+								<p class="schedule-name">康森医疗设备</p>
+								<p class="schedule-model">NPD-4BS 家庭经济型</p>
+							</dd>
+						</dl>
+						<div class="schedule-bottom-right">
+							<span class="public evaluate">去评价</span>
+							<span class="public see-details">查看详情</span>
+						</div>
+					</div>
+				</div>-->
+			</div>
+			<div class="loading">
+				<div class="middle"><img src="images/scan_net.png" />
+					<p>网络异常，点击
+						<a href="javascript:;" id="wpReload">重新加载</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="lib/jquery-2.1.0.min.js"></script>
+	<script src="lib/wpCommon.js"></script>
+	<script src="js/afterSales.js"></script>
+</html>

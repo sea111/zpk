@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>正品控</title>
+	</head>
+	<link rel="stylesheet" href="css/consumerAgency.css" />
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		window.addEventListener("resize",function(){
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		},false);
+	</script>
+	<body>
+		<div id="box">
+			<div class="picture">
+				<div class="brand-picture">
+					<img src=""/>
+				</div>				
+				<div class="brand-name"></div>
+			</div>
+			<div class="background"></div>
+			<!--=================我是消费者=================-->
+			<div id="consumer-content">
+				<div class="commodity-list shop-list">
+					<label class="same name" for="writeName">姓名 *</label>
+					<input id="writeName" name="" class="write-name" type="text" placeholder="请填写您的姓名" value=""/>
+				</div>
+				<div class="commodity-list">
+					<label class="same phonenumber" for="writeNumber">手机号 *</label>
+					<input id="writeNumber" name="" maxlength="11" class="write-number" type="text" placeholder="请填写您的手机号" value="" />
+				</div>
+				<div class="commodity-list">
+					<label class="same message-code" for="writeCode">短信验证码 *</label>			
+					<span class="get-code">
+						<input id="writeCode" name="" class="code" type="text" value=""/>
+						<i class="get"><em class="line">|</em><em id="get" class="gets">获取验证码</em></i>
+					</span>
+				</div>
+				<div class="commodity-list">
+					<label class="same address" for="writeAddress">住址</label>
+					<input id="writeAddress" maxlength="35" name="" class="write-address" type="text" placeholder="请填写您的住址" value=""/>
+				</div>
+				<div class="commodity-list">
+					<label class="same product-model" for="writeProduct">产品型号</label>
+					<input id="writeProduct" name="" maxlength="55" class="write-product" type="text" placeholder="请填写产品包装上的型号" value=""/>
+				</div>
+				<div class="commodity-list">
+					<label class="same number" for="writeNum">购买数量</label>
+					<input id="writeNum" name="" maxlength="10" class="write-num" type="text" placeholder="请填写您本次购买商品的商品数量" value=""/>
+				</div>
+				<div class="commodity-list">
+					<label class="same remark" for="writeMore">备注</label>
+					<input id="writeMore" name="" maxlength="205" class="write-more" type="text" placeholder="最多200个汉字" value=""/>
+				</div>
+				<div class="commodity-list commodity-status">
+					<label class="status">商品状态 *</label>
+					<div class="install" >
+						<span class="ins finish-install">已完成安装</span>
+						<span class="ins no-install-require">不需要安装</span>
+					</div>
+				</div>
+				<div class="footer">
+					<p class="must">带有*号的项目为必填项</p>
+					<div class="submit">提交</div>
+				</div>
+			</div>
+			<!--=================我是商家=================-->
+			<div class="loading">
+				<div class="loadEffect"> 
+					<p></p>
+					<span>Loading</span> 
+				</div>
+				<div class="middle" style="display:none;width:52%;"><img src="images/scan_net.png"/><p>网络异常，点击<a href="javascript:;" id="wpReload">重新加载</a></p></div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="lib/jquery-2.1.0.min.js" ></script>
+	<script type="text/javascript" src="lib/base64_16.js" ></script>
+	<script type="text/javascript" src="lib/crypto-js.js" ></script>
+	<script type="text/javascript" src="js/consumerAgency.js" ></script>
+</html>

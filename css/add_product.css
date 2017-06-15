@@ -1,0 +1,94 @@
+body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,select,img,label{margin:0;padding:0;}
+li{list-style: none;}
+a{text-decoration:none;}
+b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+body{
+	font-size:0.3rem;
+}
+#box{
+	width:100%;
+	height:100%;
+}
+.top{
+	width:100%;
+	height:0.88rem;
+	background:#333;
+	color:white;
+	font-size:0.35rem;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:3;
+}
+.top div{
+	width:100%;
+	height:0.88rem;
+	line-height:0.88rem;
+	text-align:center;
+}
+.bg-icon{
+	width:0.64rem;
+	height:0.64rem;
+	display:block;
+	background:url(../images/back-icon.png) no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	top:0.1rem;
+	left:0.1rem;
+}
+.back{
+	-webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+#content{
+	margin-top:0.88rem;
+}
+.series{
+	height:0.64rem;
+	line-height:0.64rem;
+	background:#f6f6f6;
+}
+.com{
+	padding-left:0.2rem;
+	border-bottom:1px solid #ddd;
+	font-size:0.26rem;
+	color:#333;
+}
+.cont{
+	height:1rem;
+	line-height:1rem;
+	background:#fff;
+	font-size:0.3rem;
+	cursor:pointer;
+	-webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+/*===============异常===================*/
+.loading{
+	width:100%;
+	position:absolute;
+	height:100%;
+	z-index:99;
+	left:0;
+	top:0.88rem;
+	display:none;
+}
+.loading .middle{
+	width:100%;
+	position:absolute;
+	height:6rem;
+	text-align:center;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+}
+.middle img{
+	width:2.1rem;
+	margin:0 auto;
+	margin-bottom:0.3rem;
+	display:block;
+}
+#wpReload{
+	color:#0AA1F8;
+}

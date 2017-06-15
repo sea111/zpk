@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>正品控-填写评价</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	
+	<link rel="stylesheet" href="css/evaluation.css" />
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		window.addEventListener("resize",function(){
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		},false);
+	</script>
+	<body>
+		<div id="box">
+			<div class="top">
+				<i class="bg-icon back" id="back"></i>
+				<div>填写评价</div>
+			</div>
+			<div id="valuate-content">
+				<div class="valuate-list">
+					<div class="valuate-top">
+						<dl class="valuate-top-left">
+							<dt class="valuate-left"><img src="" class="icon-url"/></dt>
+							<dd class="valuate-character">
+								<p class="valuate-name"></p>
+								<p class="valuate-model"></p>
+							</dd>
+						</dl>
+					</div>
+					<div class="valuate-bottom">						
+						<div class="com work-number">工单编号：<span class="work"></span></div>
+						<div class="com service-type">服务类型：<span class="type"></span></div>					
+					</div>
+				</div>
+				<div class="grade-box">
+					<span class="public grade">评分</span>
+					<span class="public star">
+						<img class="gray star-one" src="images/grayStar.png" index="1"/>
+						<img class="gray star-two" src="images/grayStar.png"/ index="2">
+						<img class="gray star-three" src="images/grayStar.png"/ index="3">
+						<img class="gray star-four" src="images/grayStar.png"/ index="4">
+						<img class="gray star-five" src="images/grayStar.png"/ index="5">
+					</span>
+					<span class="public satisfaction-level"></span>					
+				</div>
+				<div class="feeling">
+					<div class="feel">感受</div>
+					<textarea class="feel-inp" type="text" placeholder="这次售后服务还令您满意吗？来叨叨几句吧..." maxlength="100"></textarea>
+					<span class="number">0/100</span>
+				</div>
+				<div class="photo-list">
+					<div class="photo-item"><div style="display: none;"><img src="" alt="" /></div></div>
+					<div id="choose-pic">
+						<!--<form class="uploadFile" enctype="multipart/form-data" method="post" target="targetFrame">
+							<input type="file" id="choose-pic" multiple="multiple" maxlength="5" accept="image/png,image/jpg">
+						</form>-->
+					</div>
+				</div>
+			</div>
+			<div class="submit">提交</div>
+			<div class="loading">
+				<div class="middle"><img src="images/scan_net.png" />
+					<p>网络异常，点击
+						<a href="javascript:;" id="wpReload">重新加载</a>
+					</p>
+				</div>
+			</div>
+			<!--=================弹框================-->
+			<div id="smark"></div>
+			<div id="modal">
+				<div class="artile">
+					<p class="wifi">本次编辑的评价尚未提交，确定退出吗？</p>
+				</div>
+				<div class="and">
+					<a id="cancle" class="add-same">取消</a>
+					<a id="sure" class="add-same">确定</a>
+				</div>
+			</div>
+			
+		</div>
+		<script id="test" type="text/html">
+			<div class="top" id="photo-top">
+				<i id="pre-back"></i>
+				<i id="delete"></i> 
+			</div>
+	        <div class="swiper-mask">
+	            <div class="swiper-wrapper">
+	                {{each imgUrl as imgUrl i}}
+	                    <div class="swiper-slide">
+	                        <div class="swiper-zoom-container">
+	                            <img index="{{i+1}}" src="{{imgUrl}}">
+	                        </div>
+	                    </div>
+	                {{/each}}
+	            </div> 
+	        </div>	 
+	    </script>
+	</body>
+	<script src="lib/jquery-2.1.0.min.js"></script>
+	<script	src="lib/template.js"></script>
+	<script type="text/javascript" src="lib/wpCommon.js" ></script>
+	<script src="lib/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/evaluation.js"></script>
+</html>
+

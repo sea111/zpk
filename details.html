@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	 <meta name="format-detection" content="telephone=no" />
+	<title>正品控-details</title>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/details.css">
+	<style>
+		@media screen and (min-width:767px){
+			#wrap{width:10rem;margin: 0 auto;}
+			footer{width:10rem;}
+		}
+		@media screen and (max-width:767px){
+			#wrap{width: 100%;}
+			footer{width:100%}
+		}		
+	</style>
+	<script type="text/javascript">
+		if(document.documentElement.clientWidth>760){
+			document.documentElement.style.fontSize=54+"px";
+		}else{
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		}
+		window.addEventListener("resize",function(){
+			if(document.documentElement.clientWidth>760){
+				document.documentElement.style.fontSize=54+"px";
+			}else{
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+			}
+		},false);
+
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div class="top">
+			<i id="back" class="bg-icon" onclick="window.history.back()"></i>
+			<div class="btn">
+				<div id="detail_btn" class="selected switch">详情</div>
+				<div id="play_btn" class="switch">玩转</div>
+			</div>
+			<i class="like bg-icon"></i>
+			<i class="share bg-icon"></i>
+		</div>
+		<div id="content" class="block">
+			<div id="content-scroll">
+				<div class="detail_area area">
+					<header>
+						<div class="autoPlay swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><img src="" alt="" class="goods_pic"></div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</header>
+					<section>
+						<div class="product">
+							<h3 id="product_name"><i class="line"></i><span></span></h3>
+							<p>您的宝贝为全球第<strong id="number"></strong>瓶</p>
+							<p>购买者：<b id="customerName"></b></p>
+							<span id="product_des"></span>
+							
+						</div>
+					</section>
+					<div class="parameters">
+						<h2 class="title"><em></em> 参数 | <b>PARAMETERS</b> <em></em></h2>
+						<dl class="para_items">
+							<dt class="para_name">型号</dt>
+							<dd class="para_result"><div><p><a href="javascript:;"></a></p></div></dd>
+						</dl>
+					</div>
+					<div class="detail_imgText">
+						<div class="brand">
+							<dl>
+								<dt><img src="" id="brand_img"></dt>
+								<dd id="brand_name"></dd>
+								<i class="bg-icon"></i>
+							</dl>
+						</div>
+						<div class="features" style="display: none;">
+							<h2 class="title"><em></em> 特色 | <b>FEATURES</b> <em></em></h2>
+							<div class="special_block" style="display:none">
+								<div class="special-img"><img src="" rsrc="" class="bigImg"></div>
+								<div class="special_intro" style="display:none">
+									<h4><i></i> <span>可升降式烟机头部</span></h4>
+									<p>厨电的再一次革命</p>
+									<div><img src="" alt="正品控" rsrc=""></div>
+								</div>
+							</div>
+						</div>
+						<div class="nearby_shop">
+							附近门店
+						</div>
+					</div>
+					<div class="detail_longImg" style="display: none">
+						<h2 class="title"><em></em> 特色| <b>FEATURES</b> <em></em></h2>
+						<div class="longPic" style="display: none;"><img src="" alt="" rsrc="" style="display: block;"/></div>
+					</div>
+				</div>
+	
+				<div class="play_area area" style="display: none">
+					<div class="big_area play_imgText" style="display:none">
+						<h2 class="big_title"></h2>
+						<div class="special-img"><img src="" alt="" class="play_bigImg" rsrc=""></div>
+						<div class="special_intro" style="display: none;">
+							<h4><i></i> <span></span></h4>
+							<p></p>
+							<div><img src="" alt="沃朴物联" class="small_img" rsrc=""></div>
+						</div>
+					</div>
+					<div class="play_longImg" style="display: none;">
+						<div class="longPic" style="display: none;"><img src="" alt="" rsrc="" style="display: block;"/></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="f_block hide">
+			<div id="consultant">
+				<span>咨询留言</span>
+				<i class="bg-icon"></i>
+			</div>
+			<div class="cst_area">
+				<dl>
+					<dt>
+						<h4><i class="bg-icon"></i><span class="account">我的咨询</span><span class="consult_time">2017-01-05 20:45</span></h4>
+						<p class="my_consult">好吃吗</p>
+					</dt>
+					<dd class="underline">
+						<h4><i class="bg-icon"></i>企业答复</h4>
+						<p class="reply">等待企业答复中</p>
+					</dd>
+					<dt>
+						<h4><i class="bg-icon"></i><span class="account">我的咨询</span><span class="consult_time">2017-01-05 20:45</span></h4>
+						<p class="my_consult"></p>
+					</dt>
+					<dd>
+						<h4><i class="bg-icon"></i>企业答复</h4>
+						<p class="reply">等待企业答复中</p>
+					</dd>
+				</dl>
+			</div>
+			<div class="cst_item">
+				<a href="javascript:;" id="cst_btn"><i class="bg-icon"></i>咨询</a>
+				<a href="javascript:;" id="watchMore"><i class="bg-icon"></i>查看更多</a>
+			</div>
+		</footer>
+		<div id="serverTel"></div>
+	</div>
+	<div class="loading">
+		<div class="middle"><img src="images/scan_net.png"/><p>网络异常，点击<a href="javascript:;" id="wpReload">重新加载</a></p></div>
+	</div>
+	<img src="images/error_else.png" alt="" style="display: none;"/>
+	<div id="smark"></div>
+	<div id="modal">
+		<div class="artile">
+			<p class="user">温馨提醒</p>
+			<p class="wifi">当前网络无WiFi，继续播放可能会被运营商收取流量费用</p>
+		</div>
+		<div class="and">
+			<a id="cancle">停止播放</a>
+			<a id="sure">继续播放</a>
+		</div>
+	</div>
+	<script id="test" type="text/html">
+                        <!-- Swiper -->
+        <div class="swiper-mask">
+            <div class="swiper-wrapper">
+                {{each imgUrl as imgUrl i}}
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img index="{{i+1}}" src="{{imgUrl}}">
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+             <!--<div class="swiper-pagination"></div>-->
+        </div>
+    </script>
+	<div id="backTop" class="bg-icon"></div>
+	
+	<script src="lib/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="lib/iscroll.js" type="text/javascript" charset="utf-8"></script>
+	<script	src="lib/wpCommon.js"></script>
+	<script	src="lib/template.js"></script>
+	<script src="lib/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/details2.js"></script>
+</body>
+</html>

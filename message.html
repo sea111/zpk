@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>正品控-推送</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+			window.addEventListener("resize", function() {
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+			}, false);
+		</script>
+		<style>
+			body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,select,img{ margin: 0; padding:0}
+			
+			body,
+			html {
+				width: 100%;
+				height: 100%
+			}
+			
+			a {
+				text-decoration: none
+			}
+			
+			body {
+				font-size: .3rem
+			}
+			
+			img {
+				border: 0
+			}
+			
+			.top {
+				width: 100%;
+				height: .88rem;
+				background: #333;
+				color: white;
+				font-size: .35rem;
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 9
+			}
+			
+			.bg-icon {
+				width: .64rem;
+				height: .64rem;
+				display: block;
+				background: url(images/message-sprite.png) no-repeat;
+				background-size: 3.84rem .64rem;
+				position: absolute
+			}
+			
+			#back {
+				background-position: 0rem 0rem;
+				left: .1rem;
+				bottom: .12rem
+			}
+			
+			#share {
+				background-position: -0.64rem 0rem;
+				right: .1rem;
+				bottom: .12rem
+			}
+			
+			.top div {
+				margin: 0 auto;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				line-height: .88rem
+			}
+			
+			.banner {
+				height: 4rem;
+				border-bottom: 1px solid #e6e6e6
+			}
+			
+			#poster {
+				width: 100%;
+				height: 100%;
+				display: block;
+				border: 0
+			}
+			
+			.content {
+				top: .88rem;
+				position: relative
+			}
+			
+			.info_card {
+				box-shadow: 0 0 40px rgba(204, 204, 204, 0.7);
+				background: white;
+				box-sizing: border-box;
+				padding-top: .56rem;
+				border-radius: .2rem;
+				width: 91%;
+				margin: 0 auto;
+				position: absolute;
+				top: 3.36rem;
+				left: 0;
+				right: 0
+			}
+			
+			.act_title {
+				width: 100%;
+				margin: 0 auto
+			}
+			
+			.items {
+				width: 100%;
+				text-align: center;
+				margin-bottom: .18rem
+			}
+			
+			.bg-icon {
+				width: .64rem;
+				height: .64rem;
+				display: inline-block;
+				background: url(images/message-sprite.png) no-repeat;
+				background-size: 3.84rem .64rem
+			}
+			
+			.active {
+				font-size: .34rem;
+				color: #333;
+				text-align: center;
+				position: relative
+			}
+			
+			.l-quote {
+				position: absolute;
+				background-position: -3.2rem 0rem;
+				top: -0.3rem;
+				left: -0.55rem
+			}
+			
+			.r-quote {
+				position: absolute;
+				top: -0.06rem;
+				left: 1.3rem;
+				background-position: -2.56rem 0rem
+			}
+			
+			.time {
+				background-position: -1.28rem 0rem;
+				position: absolute;
+				left: -0.55rem;
+				top: -0.1rem
+			}
+			
+			.place {
+				background-position: -1.92rem 0rem;
+				position: absolute;
+				left: -0.55rem;
+				top: -0.1rem
+			}
+			
+			.detial {
+				font-size: .3rem;
+				color: #333;
+				display: block;
+				text-align: center;
+				position: relative
+			}
+			
+			.lineS {
+				border-top: 1px solid #000;
+				text-align: center;
+				width: .6rem;
+				display: inline-block;
+				font-weight: 100;
+				position: absolute;
+				top: .15rem
+			}
+			
+			.lineL {
+				left: 2.2rem
+			}
+			
+			.lineR {
+				margin-left: .1rem
+			}
+			
+			.act_times,
+			.act_place {
+				margin-left: .68rem;
+				position: relative
+			}
+			
+			.act_place {
+				margin-top: .3rem
+			}
+			
+			.activeTime,
+			.activePlace {
+				display: inline-block;
+				padding-left: .12rem;
+				color: #666;
+				font-size: .30rem;
+				white-space: normal;
+				word-break: break-all
+			}
+			
+			.article {
+				font-weight: 100;
+				line-height: .4rem
+			}
+			
+			.act_content {
+				color: #666;
+				padding: 0 .3rem;
+				line-height: .44rem;
+				margin-top: .3rem;
+				margin-bottom: .3rem;
+				text-indent: 2em;
+				white-space: normal;
+				word-break: break-all
+			}
+			
+			.sure {
+				text-align: center;
+				margin: 0 auto
+			}
+			
+			#alright {
+				-webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+				display: inline-block;
+				margin: .5rem auto;
+				width: 1.9rem;
+				height: .72rem;
+				text-align: center;
+				line-height: .72rem;
+				color: #fff;
+				font-size: .34rem;
+				background: #f9b80f;
+				border-radius: .4rem;
+				box-shadow: 0 0 40px #f9b80f
+			}
+			
+			#alright {
+				-webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+				display: block;
+				margin: .5rem auto;
+				width: 1.9rem;
+				height: .72rem;
+				text-align: center;
+				line-height: .72rem;
+				color: #fff;
+				font-size: .34rem;
+				background: #f9b80f;
+				border-radius: .4rem;
+				box-shadow: 0 0 30px rgba(249, 184, 15, 0.6)
+			}
+			
+			.loading {
+				width: 100%;
+				position: absolute;
+				height: 100%;
+				display: none;
+				z-index: 99;
+				left: 0;
+				top: .88rem
+			}
+			
+			.loading .middle {
+				width: 100%;
+				position: absolute;
+				height: 6rem;
+				text-align: center;
+				left: 0;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				margin: auto
+			}
+			
+			.middle img {
+				width: 2.1rem;
+				margin: 0 auto;
+				margin-bottom: .3rem;
+				display: block
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="top">
+			<i class="bg-icon" id="back"></i>
+			<div></div>
+			<i class="bg-icon" id="share"></i>
+		</div>
+		<div class="content">
+			<div class="banner">
+				<img src="images/default_error2.png" id="poster" />
+			</div>
+			<div class="info_card">
+				<div class="act_title">
+					<div class="items">
+						<span class="active"><i class="bg-icon l-quote"></i>活动介绍<i class="bg-icon r-quote"></i></span>
+					</div>
+					<div class="items">
+						<span class="detial"><strong class="lineS lineL"></strong>DETAIL<strong class="lineS lineR"></strong></span>
+					</div>
+				</div>
+				<div class="act_content"></div>
+				<div class="act_times">
+					<i class="bg-icon time"></i>
+					<span class="activeTime">活动时间:<strong class="article" id="act_time"></strong></span>
+				</div>
+				<div class="act_place">
+					<i class="bg-icon place"></i>
+					<span class="activePlace">活动地点:<strong class="article" id="act_place"></strong></span>
+				</div>
+				<div class="sure">
+					<a href="javascript:;" id="alright">好的</a>
+				</div>
+			</div>
+		</div>
+		<div class="loading">
+			<div class="middle"><img src="images/scan_net.png" />
+				<p>网络异常，点击
+					<a href="javascript:;" id="wpReload">重新加载</a>
+				</p>
+			</div>
+		</div>
+		<script src="lib/jquery-2.1.0.min.js"></script>
+		<script src="lib/wpCommon.js"></script>
+		<script>
+			WPBridge.callMethod("JsInvokeNative", "wpShowLoadingDialog", {}, function() {})
+			//返回关闭页面
+			$("#alright").on('touchstart', function() {
+				WPBridge.callMethod("JsInvokeNative", "wpFinishH5", {}, function() {})
+			})
+
+			$("#back").on('touchstart', function() {
+				WPBridge.callMethod("JsInvokeNative", "wpFinishH5", {}, function() {})
+			})
+
+			getKey();
+			$('.loading').css('height', wholeHei + 'px');
+			
+			function getKey(lock) {
+				$.ajax({
+					url: wpCommon.Url + '/wpwl/getKey',
+					type: "post",
+					success: function(res) {
+						key = res.data;
+						getData()
+					}
+				})
+			}
+
+			//获取接口数据
+			function getData(flag) {
+				var msgId = getUrlRequest().activityPushId;
+				WPBridge.callMethod("JsInvokeNative", "wpEncrypt", {
+					key: key,
+					params: [msgId]
+				}, function(msg) {
+					$.ajax({
+						url: wpCommon.Url + "/wpwl/activityPush/getById",
+						data: {
+							id: msg.data.result[0],
+							versionId: '27'
+						},
+						type: 'post',
+						timeout: 10000,
+						success: function(res) {
+							if(res.errMsg == "AES加密解密失败") {
+								if(!flag) {
+									getKey(true);
+								}
+							} else if(res.success == false) {
+								$(".content").hide();
+								$(".loading").show();
+								$(".middle img").attr('src', "images/notFound.png");
+								$(".middle p").html("活动异常<br />关联产品或活动已下架");
+								$("#share").hide();
+								wpCommon.viewShow();
+							} else {
+								try {
+									window.actData = res.data;
+									//$(".loading").style.display="none";
+									$("#act_time").html(actData.activityTime);
+									$("#act_place").html(actData.activityAddress);
+									$("#poster").attr('src', actData.activityPicUrl);
+									$(".act_content").html(actData.activityContent);
+									if(actData.brandName) {
+										$('.top div').html(actData.brandName);
+									} else if(actData.productName) {
+										$('.top div').html(actData.productName);
+									}
+									wpCommon.viewShow();
+								} catch(e) {
+									$(".loading").show();
+									$(".content").hide();
+									$(".middle img").attr('src', "images/error_else.png");
+									$(".middle p").html("出错了，请稍后再试");
+								}
+
+							}
+						},
+						error: function(jqXHR, textStatus, errorThrown) {
+							if(textStatus == "timeout") {
+								$(".content").hide();
+								$(".loading").show();
+							} else {
+								$(".loading").show();
+								$(".content").hide();
+								$(".middle img").attr('src', "images/error_else.png");
+								$(".middle p").html("出错了，请稍后再试");
+							}
+						}
+					})
+				})
+			}
+			
+			//重新加载
+			$("#wpReload").click(function() {
+				getData();
+			})
+			
+			//分享
+			$("#share").click(function() {
+				if(actData.brandName) {
+					var title = actData.brandName + "又有新活动啦！";
+				} else if(actData.productName) {
+					var title = actData.productName + "又有新活动啦！";
+				}
+				if(actData.brandIcon) {
+					var imgUrl = actData.brandIcon;
+				} else {
+					var imgUrl = actData.productIcon;
+				}
+				var text = actData.activityContent;
+				var msgId = getUrlRequest().activityPushId;
+				WPBridge.callMethod('JsInvokeNative', 'wpShareProduct', {
+					shareId: msgId,
+					shareTitle: title,
+					type:'2',
+					shareText: text,
+					shareUrl: wpCommon.Url + "/h5/shareMess.html?activityPushId=" + msgId,
+					shareImg: imgUrl
+				}, '');
+			})
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>正品控</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" href="css/share.css" />
+	<style>
+		body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,select,img{ margin: 0; padding:0}
+		@media screen and (min-width:767px){
+			#wrap{width:10rem;margin: 0 auto;}
+			#bottom{width:10rem;}
+		}
+		@media screen and (max-width:767px){
+			#wrap{width: 100%;}
+			#bottom{width:100%}
+		}
+	</style>
+	<script type="text/javascript">
+		if(document.documentElement.clientWidth>760){
+			document.documentElement.style.fontSize=54+"px";
+		}else{
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		}
+		window.addEventListener("resize",function(){
+			if(document.documentElement.clientWidth>760){
+				document.documentElement.style.fontSize=54+"px";
+			}else{
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+			}
+		},false);
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="content">
+			<div id="content-scroll">
+				<div class="detail_area area">
+					<header>
+						<div class="swiper-container autoPlay">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><img src="" alt="" class="goods_pic"></div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</header>
+					<section>
+						<div class="product">
+							<h3 id="product_name"><i class="circle"><img src="" alt="" /></i><span></span></h3>
+							<span id="product_des"></span>
+						</div>
+					</section>
+					<div class="parameters">
+						<h2 class="title"><em></em> 参数 | <b>PARAMETERS</b> <em></em></h2>
+						<dl class="para_items">
+							<dt class="para_name">型号</dt>
+							<dd class="para_result"><div><p><a href="javascript:;"></a></p></div></dd>
+						</dl>
+					</div>
+					<div class="features" style="display: none;">
+						<h2 class="title"><em></em> 特色 | <b>FEATURES</b> <em></em></h2>
+						<div class="special_block" style="display:none">
+							<div class="special-img"><img src="images/default_error2.png" class="bigImg"></div>
+							<div class="special_intro" style="display:none">
+								<h4><i></i> <span>可升降式烟机头部</span></h4>
+								<p>厨电的再一次革命</p>
+								<div><img src="" alt="正品控" ></div>
+							</div>
+						</div>
+					</div>
+					<div class="share_longImg" style="display: none">
+						<div class="longPic" style="display: none;"><img src="" alt="" rsrc="" style="display: block;"/></div>
+					</div>
+				</div>
+			</div>
+			<div id="serverTel"></div>
+		</div>
+		<div class="loading">
+			<div class="loadEffect"> 
+				<p></p>
+				<span>Loading</span> 
+			</div>
+			<div class="middle" style="display:none"><img src="images/scan_net.png"/><p>网络异常，点击<a href="javascript:;" id="wpReload">重新加载</a></p></div>
+		</div>
+		<div id="bottom">
+			<i class="bg-icon" id="close"></i>
+			<i class="bg-icon" id="logo"></i>
+			<div>
+				<span>正品控</span>
+				<span>扫码知真伪</span>
+			</div>
+			<a href="javascript:;" id="download">下载APP</a>				
+		</div>
+		<script id="test" type="text/html">
+	        <div class="swiper-mask">
+	            <div class="swiper-wrapper">
+	                {{each imgUrl as imgUrl i}}
+	                    <div class="swiper-slide">
+	                        <div class="swiper-zoom-container">
+	                            <img index="{{i+1}}" src="{{imgUrl}}">
+	                        </div>
+	                    </div>
+	                {{/each}}
+	            </div>
+	        </div>
+	    </script>
+	</div>
+	<script src="lib/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="lib/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="lib/iscroll.js" type="text/javascript" charset="utf-8"></script>
+	<script src="lib/template.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="lib/share.js"></script>
+</body>
+</html>

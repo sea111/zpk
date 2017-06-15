@@ -1,0 +1,115 @@
+{
+	"details.html": {
+		"resources": [
+			"lib/swiper.min.js",
+			"css/details.css",
+			"lib/iscroll.js",
+			"css/swiper.min.css",
+			"lib/klass.min.js",
+			"css/lightbox.css",
+			"JSON/productInfo.json",
+			"lib/jquery-1.8.2.min.js",
+			"lib/photoswipe.min.js",
+			"JSON/play.json",
+			"images/detail_sprite.png",
+			"images/icon_personal.png",
+			"index.html",
+			"lib/mini-lightbox.min.js",
+			"lib/magnific-popup.css",
+			"lib/jquery.magnific-popup.min.js",
+			"dist/photoswipe-ui-default.min.js",
+			"dist/photoswipe.min.js",
+			"lib/jquery.swipebox.js",
+			"company.html",
+			"lib/swipebox.min.css",
+			"lib/ios-orientationchange-fix.js",
+			"lib/normalize.css",
+			"lib/jquery-2.1.0.min.js",
+			"lib/bagpakk.min.css",
+			"lib/images/icons.png",
+			"lib/images/icons.svg",
+			"images/loader.gif",
+			"images/detail-sprite.png",
+			"images/detail-sprite2.png",
+			"images/detail-sprite4.png",
+			"images/loading2.gif",
+			"js/details.js",
+			"wrapImg.html",
+			"consult.html",
+			"share.html"
+		],
+		"refer": [
+			"index.html",
+			"company.html",
+			"wrapImg.html",
+			"consult.html",
+			"share.html"
+		]
+	},
+	"index.html": {
+		"resources": [
+			"details.html",
+			"images/icon_personal.png",
+			"images/bt_back.png",
+			"lib/zepto.min.js",
+			"images/success-sprite.png",
+			"images/fireworks.png",
+			"failed.html"
+		],
+		"refer": [
+			"details.html",
+			"failed.html"
+		]
+	},
+	"company.html": {
+		"resources": [
+			"details.html",
+			"images/sprite1.png",
+			"images/back-icon.png"
+		],
+		"refer": [
+			"details.html"
+		]
+	},
+	"consult.html": {
+		"resources": [
+			"images/loading.gif",
+			"images/consult-sprite.png",
+			"JSON/productInfo.json",
+			"details.html",
+			"JSON/consult.json"
+		],
+		"refer": [
+			"details.html"
+		]
+	},
+	"share.html": {
+		"resources": [
+			"css/share.css",
+			"js/share.js",
+			"JSON/productInfo.json",
+			"images/share-sprite.png",
+			"lib/swipebox.min.css",
+			"lib/swiper.min.js",
+			"lib/jquery-2.1.0.min.js",
+			"lib/iscroll.js",
+			"css/swiper.min.css",
+			"lib/jquery.swipebox.js",
+			"lib/images/icons.svg",
+			"images/loader.gif",
+			"lib/images/icons.png"
+		]
+	},
+	"failed.html": {
+		"resources": [
+			"images/failed-sprite.png",
+			"images/scan_delay.png",
+			"lib/zepto.min.js",
+			"images/vrf_wrong.png",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>正品控-公司简介</title>
+	
+	<script type="text/javascript">
+		document.documentElement.style.fontSize = document.documentElement.clientWidth /7.5 + "px";
+		window.addEventListener("resize",function(){
+			document.documentElement.style.fontSize = document.documentElement.clientWidth /7.5 + "px";
+		},false);
+	</script>
+	<style type="text/css">
+		body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,select,img{ margin: 0; padding:0}
+		body,html{width: 100%;height: 100%;}
+		body{font-size: 0.28rem}
+		a{text-decoration: none;}
+		.top{width: 100%;height: 0.88rem;background: #333;color: white;font-size: 0.35rem;position: fixed;top:0;z-index:99}
+		.bg-icon{width:0.64rem;height:0.64rem;display: block;background: url(images/company-sprite.png) no-repeat ;background-size:1.28rem 0.64rem;position:absolute;}
+		#back{background-position:0rem 0rem;left:0.1rem;bottom:0.12rem;}
+		#line{background-position:-0.64rem 0rem;left:0.08rem;bottom:0.2rem}
+		.top div{margin: 0 auto;width: 100%;height: 100%;text-align: center;line-height: 1rem;}
+		.big_img{height: 4.6rem;text-align: center;line-height: 4.6rem;margin-top:0.88rem }
+		/*.big_img span{height:4.6rem;width: 0;vertical-align: middle;display: inline-block;}*/
+		.big_img img{display: inline-block;max-height: 100%;max-width: 100%;margin: 0;padding: 0;width: auto;height: auto;vertical-align: middle;}
+		.company_info{overflow: hidden;padding-bottom:10px}
+		h3{position:relative;font-weight: normal;font-size: 0.32rem;color: #333;box-sizing: border-box;padding: 0.3rem 0 0.32rem 0.7rem;}
+		.company_intro{color: #666;font-size: 0.30rem;line-height: 0.5rem;text-indent: 2em;padding:0 0.2rem;}
+	</style>
+</head>
+<body>
+	<div class="top">
+		<span id="back" class="bg-icon"></span>
+		<div></div>
+	</div>
+	<div class="big_img">
+		<span></span>
+		<img src="images/default_error2.png" alt="正品控">
+	</div>
+	<div class="company_info">
+		<h3><i class="bg-icon" id="line"></i>企业简介</h3>
+		<p class="company_intro"></p>
+	</div>
+	<script src="lib/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="lib/wpCommon.js"></script>
+	<script type="text/javascript">
+
+		$(function(){
+			var data=JSON.parse(localStorage.getItem('brand'))
+			$(".top div").html(data.brandName);
+			var length=data.brandDesc.split("\n").length;
+			var words=data.brandDesc.split("\n");
+			if(data.publicityImage!=" "){
+				$(".big_img img").attr("src",data.publicityImage);
+			}
+			for(var i=0;i<length;i++){
+				var ele=$(".company_intro").eq(0).clone();
+				if(words[i].substring(0,2)=="企业"){
+					ele.html('')
+				}
+				else ele.html(words[i]);
+				$(".company_info").append(ele);
+			}
+			wpCommon.viewShow();
+			$("#back").on("click",function(e){
+				localStorage.removeItem("brand");
+				WPBridge.callMethod('JsInvokeNative','wpH5Back',{},function(){})
+				e.preventDefault();
+			})
+		})
+		
+	</script>
+</body>
+</html>

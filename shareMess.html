@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<script type="text/javascript">
+			if(document.documentElement.clientWidth>760){
+				document.documentElement.style.fontSize=54+"px";
+			}else{
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+			}
+			window.addEventListener("resize",function(){
+				if(document.documentElement.clientWidth>760){
+					document.documentElement.style.fontSize=54+"px";
+				}else{
+					document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+				}
+			},false);
+		</script>
+		<style>
+			body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,select,img{ margin: 0; padding:0}
+			@media screen and (min-width:767px){
+				#wrap{width:10rem;margin: 0 auto;height:100%;border:1px solid #e6e6e6;display: none;}
+				#wrap .info_card{width:9rem}
+			}
+			@media screen and (max-width:767px){
+				#wrap{width: 100%;display:none;}
+				
+			}
+			body,html{
+				width: 100%;
+				height: 100%;
+			}
+			a{text-decoration: none;}
+			body{font-size: 0.3rem}
+			.bg-icon{width:0.64rem;height:0.64rem;display: block;background: url(images/message-sprite.png) no-repeat ;background-size:3.84rem 0.64rem;position:absolute;}
+			.banner{height:4rem;border-bottom:1px solid #e6e6e6}
+			#poster{width:100%;height:100%;display: block;border: 0;}
+			.content{
+				position:relative;
+			}
+			.info_card{
+				box-shadow:0 0 40px #ccc;
+				background:white;
+				box-sizing:border-box;
+				padding-top:0.56rem;
+				border-radius:0.2rem;
+				width:91%;
+				margin:0 auto;
+				position:absolute;
+				top:3.36rem;
+				left:0;
+				right:0;
+				padding-bottom:0.5rem;
+			}
+			.act_title{
+				width:100%;
+				margin:0 auto;
+			}
+			.items{
+				width:100%;
+				text-align:center;
+				margin-bottom:0.18rem;
+			}
+			.bg-icon{
+				width:0.64rem;
+				height:0.64rem;
+				display:inline-block;
+				background:url(images/message-sprite.png) no-repeat;
+				background-size:3.84rem 0.64rem;
+			}
+			.active{
+				font-size:0.34rem;
+				color:#333;
+				text-align:center;
+				position:relative;
+			}
+			.l-quote{
+				position:absolute;
+			    background-position:-3.2rem 0rem;
+			    top:-0.3rem;
+	    		left:-0.55rem;
+			}
+			.r-quote{
+				position:absolute;
+				top:-0.06rem;;
+				left:1.3rem;
+				background-position:-2.56rem 0rem;
+			}
+			.time{
+				background-position:-1.28rem 0rem;
+				position:absolute;
+			    left:-0.55rem;
+			    top:-0.1rem;
+			}
+			.place{
+				background-position:-1.92rem 0rem;
+				position:absolute;
+			    left:-0.55rem;
+			    top:-0.1rem;
+			}
+			.detial{
+				font-size:0.3rem;
+				color:#333;
+				display:block;
+				text-align:center;
+				position:relative;
+			}
+			.lineS{
+				border-top:1px solid #000;
+				text-align:center;
+				width:0.6rem;
+				display:inline-block;
+				font-weight:100;
+			    position:absolute;
+			    top:0.15rem;
+			}
+			.lineL{
+			    left:2.2rem;
+			}
+			.lineR{
+				margin-left:0.1rem;
+			}
+			.act_times,.act_place{
+				margin-left:0.68rem;
+				position:relative;
+			}
+			.act_place{margin-top:0.3rem;}
+			 .activeTime,.activePlace{
+				display:inline-block;
+				padding-left:0.12rem;
+				color:#666;
+				font-size:0.30rem;	
+				white-space: normal;
+				word-break: break-all;		
+			}
+			.article{
+				font-weight:100;
+				line-height:0.4rem;
+			}
+			.act_content{
+				color:#666;
+				padding:0 0.3rem;
+				line-height:0.42rem;	
+				margin-top:0.3rem;	
+				margin-bottom:0.3rem;
+				text-indent:2em;
+				white-space: normal;
+				word-break: break-all;
+			}
+			#wpReload{color:#0AA1F8;}
+			.loading {width: 100%;position: absolute;height: 100%;z-index: 99;left: 0;top: .88rem;}
+			.loading .middle {width: 100%;position: absolute;height: 6rem;text-align: center;left: 0;top: 0;bottom: 0;right: 0;margin: auto}
+			.middle img {width: 2.1rem;margin: 0 auto;margin-bottom: .3rem;display: block}
+			.loadEffect{ width: 100px; height: 100px; position: absolute; margin:auto;left:0;top:0;right:0;bottom:0.88rem;}
+			.loadEffect p{ position: absolute; margin:auto;left:0;top:0;right:0;bottom:0;width:0.56rem;height:0.56rem;border:3px solid #f9c804;-webkit-animation: load 1s ease infinite;}
+			@-webkit-keyframes load{
+		            0%{
+		                transform: rotate(-45deg);
+		            }
+		            100%{
+		                transform: rotate(315deg);
+		            }
+		        }
+			.loadEffect span{color:0.26rem;color:#666;width:100%;display: block;text-align: center;position: absolute;bottom:0}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div class="banner">
+				<img src="images/default_error2.png" alt="" id="poster"/>
+			</div>
+			<div class="info_card">
+				<div class="act_title">
+					<div class="items">
+						<span class="active"><i class="bg-icon l-quote"></i>活动介绍<i class="bg-icon r-quote"></i></span>					
+					</div>
+					<div class="items">					
+						<span class="detial"><strong class="lineS lineL"></strong>DETAIL<strong class="lineS lineR"></strong></span>					
+					</div>
+				</div>
+				<div class="act_content"></div>
+				<div class="act_times">	
+					<i class="bg-icon time"></i>
+					<span class="activeTime">活动时间:<strong class="article" id="act_time"></strong></span> 
+				</div>
+				<div class="act_place">		
+					<i class="bg-icon place"></i>
+					<span class="activePlace">活动地点:<strong class="article" id="act_place"></strong></span>	 
+				</div>
+			</div>
+			
+		</div>
+		<div class="loading">
+			<div class="loadEffect"> 
+				<p></p>
+				<span>Loading</span> 
+			</div>
+			<div class="middle" style="display: none;"><img src="images/scan_net.png"/><p>网络异常，点击<a href="javascript:;" id="wpReload">重新加载</a></p></div>
+		</div>
+		<script src="lib/jquery-2.1.0.min.js"></script>
+		<script>
+			//获取链接中的推送id
+			function getUrlRequest() {
+				var url = location.search;
+				var theRequest = new Object();
+				if (url.indexOf("?") != -1) {
+					var str = url.substr(1);
+					if (str.indexOf("&") != -1) {
+						strs = str.split("&");
+						for (var i = 0; i < strs.length; i++) {
+							theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1])
+						}
+					} else {
+						theRequest[str.split("=")[0]] = unescape(str.split("=")[1])
+					}
+				}
+				return theRequest
+			}
+			getData();
+			
+			//微信中设置title
+			document.setTitle = function(t) {
+		        document.title = t;
+		        var i = document.createElement('iframe');
+		        i.src = '/favicon.ico';
+		        i.style.display = 'none';
+		        i.onload = function() {
+		          setTimeout(function(){
+		            i.remove();
+		          }, 9)
+		        }
+		        document.body.appendChild(i);
+		      }
+			
+			//除去导航栏的高度
+			var wholeHei=document.documentElement.clientHeight-document.documentElement.clientWidth /7.5*0.88;
+			$('.loading').css('height',wholeHei+'px');
+			
+			//ajax获取数据
+			function getData(flag){
+				$.ajax({
+					url:"https://h5.wpwl.org/share/activityPush/getById",
+					data:{
+						id:getUrlRequest().activityPushId,
+						versionId:'27'
+					},
+					type:'get',
+					timeout:10000,
+					beforeSend:function(){
+						$(".loadEffect").show().siblings(".middle").hide()
+					},
+					success:function(res){
+						if(res.errMsg=="AES加密解密失败"){
+							if(!flag){
+								getData(true);
+							}
+						}else if(res.success==false){
+							$(".loadEffect").hide().siblings(".middle").show().find('img').attr('src','images/notFound.png').siblings('p').html("活动异常<br />关联产品或活动已下架")
+						}else{
+							try{
+								window.actData=res.data;
+								$(".loading").hide();
+								//$(".loading").style.display="none";
+								$("#act_time").html(actData.activityTime);
+								$("#act_place").html(actData.activityAddress);
+								$("#poster").attr('src',actData.activityPicUrl);
+								$(".act_content").html(actData.activityContent);
+								if(actData.brandName){
+									document.setTitle(actData.brandName)
+								}else if(actData.productName){
+									document.setTitle(actData.productName);
+								}
+								$("#wrap").show();
+							}catch(e){
+								$(".loadEffect").hide().siblings(".middle").show();
+								$(".middle img").attr('src',"images/error_else.png");
+								$(".middle p").html("出错了，请稍后再试");
+							}
+							
+						}
+					},
+					error:function(jqXHR, textStatus, errorThrown){
+						$(".content").hide();
+						$(".loadEffect").hide().siblings(".middle").show()
+					}					
+				})
+			}
+
+			//重新加载
+			$("#wpReload").click(function(){
+				getData();
+			})
+			
+		</script>
+	</body>
+</html>

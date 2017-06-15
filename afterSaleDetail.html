@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>正品控-售后详情</title>
+		<link rel="stylesheet" href="css/afterSaleDetail.css" />
+	</head>
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		window.addEventListener("resize",function(){
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		},false);
+	</script>
+	<body>
+		<div class="top">
+			<i id="back" class="bg-icon"></i>
+			<div class="title">
+				售后详情
+			</div>
+		</div>
+		<div class="service-detail block">
+			<div class="service-type">
+				<div><span>工单编号：</span><span id="work-number"></span><strong id="work-status"></strong>
+				</div>
+				<div><span>服务时间：</span><span id="service-time"></span></div>	
+			</div>
+			<dl class="good-detail">
+				<dt class="good-picture"><img src="" class="icon-url"/></dt>
+				<dd id="good-cont" class="good-conts">
+					<p id="goods-name"></p>
+					<p id="goods-standard"></p>
+				</dd>
+			</dl>
+		</div>
+		<div class="sale-problem block">
+			<dl class="type">
+				<dt class="size">售后类型：</dt>
+				<dd id="service-type" class="size-big"></dd>
+			</dl>
+			<dl>
+				<dt class="size">问题描述：</dt>
+				<dd id="question" class="size-big"></dd>
+			</dl>
+			<dl>
+				<dt class="size">解决方案：</dt>
+				<dd id="solution" class="size-big"></dd>
+			</dl>
+		</div>
+		<div class="service-address block">
+			<span class="size">服务地址:</span>
+			<strong id="service-add" class="size-big"></strong>
+		</div>
+		<div class="my-comment block" style="display:none;">
+			<p class="size">我的评价</p>
+			<div class="star size"></div>
+			<div id="com-content" class="size-big com-cont">
+				
+			</div>
+		</div>
+		<div class="reply block" style="display:none;">
+			<span class="size">企业回复：</span>
+			<strong id="reply-content" class="size-big"></strong>
+		</div>
+		<div class="comment">
+			<a href="javascript:;" id="go-comment">去评价</a>
+		</div>
+		<div class="loading">
+			<div class="middle"><img src="images/scan_net.png" />
+				<p>网络异常，点击
+					<a href="javascript:;" id="wpReload">重新加载</a>
+				</p>
+			</div>
+		</div>
+	</body>
+	<script src="lib/jquery-2.1.0.min.js"></script>
+	<script src="lib/wpCommon.js"></script>
+	<script src="js/afterSaleDetail.js"></script>
+</html>

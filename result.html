@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="Cache-control" content="no-cache"><!--清除浏览器缓存-->
+		<meta name="format-detection" content="telephone=no" />
+		<title>正品控</title>	
+	</head>
+	<link rel="stylesheet" href="css/result.css" />	
+	<script type="text/javascript">
+		//rem
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		window.addEventListener("resize",function(){
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		},false);
+	</script>
+	<body>
+		<div id="box">
+			<header id="header">
+				<section class="top">
+					<a href="javascript:;" class="goback"></a>
+					<p class="all"></p>
+				</section>
+			</header>
+			<div id="content">
+				<div class="content-box">
+					<div class="list-goods">
+						<div class="con">
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+		<div id="hide">
+			<header id="header">
+				<section class="top">
+					<a href="javascript:;" onclick="javascript:history.back(-1)" class="goback"></a>
+					<p class="all">网络异常</p>
+				</section>
+			</header>
+			<div class="loading">
+				<div class="middle"><img src="img/scan_net.png"/><p>网络异常，点击<a href="javascript:;" id="wpReload">重新加载</a></p></div>
+			</div>
+		</div>	
+	</body>
+	<script type="text/javascript" src="lib/jquery-2.1.0.min.js" ></script>
+	<script type="text/javascript" src="lib/iscroll.js" ></script>
+	<script type="text/javascript" src="lib/wpCommon.js" ></script>
+	<script type="text/javascript" src="js/result.js" ></script>
+</html>

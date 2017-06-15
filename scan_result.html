@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>正品控 scan_result</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" href="css/scan_result.css" />
+		<script>
+			if(document.documentElement.clientWidth > 760) {
+				document.documentElement.style.fontSize = 54 + "px";
+			} else {
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+			}
+			window.addEventListener("resize", function() {
+				if(document.documentElement.clientWidth > 760) {
+					document.documentElement.style.fontSize = 54 + "px";
+				} else {
+					document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+				}
+			}, false);
+		</script>
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div class="top">
+				<i id="back" class="bg-icon"></i>
+				<div></div>
+			</div>
+			<div class="success">
+				<div class="brand">
+					<div id="brand_logo">
+						<div class="imgWrap"><img src="images/default_error2.png" alt="" class="zoomImg"></div>
+						<div class="brand-bg"></div>
+					</div>
+					<div class="brand-info">
+						<p id="brand_name"></p>
+						<p id="product_name"></p>
+					</div>
+				</div>
+				<!-- <div id="result">恭喜你 你的宝贝是正品</div> -->
+				<div id="goods_info">
+					<dl class="goods_outer">
+						<dt class="goods_img">
+							<p class="img-border"><img src="" class="zoomImg"></p>
+						</dt>
+						<dd class="goods_word">
+							<h3 class="goods_name"><i class="bg-icon"></i><span></span></h3>
+							<span id="goods_detail"></span>
+							<b id="time"></b>
+							<a href="javascript:;" id="wt_details">查看详情</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="distri-info"></div>
+				<div id="footer">
+					<p>正品数据来源于<strong class="goods_name"><span>接口</span></strong></p>
+					<em>中国防伪行业协会成员理事单位--沃朴物联 提供支持</em>
+				</div>
+			</div>
+			<div class="fail">
+				<div class="result">
+					<div class="middle">
+						<img src="" alt="">
+						<p>很抱歉，没有找到您扫描的商品</p>
+					</div>
+				</div>
+				<div class="info_item">
+					<a href="javascript:;" id="rescan">再次扫描</a>
+				</div>
+				<div class="search_item">
+					<div class="search_wrap">
+						<form action="javascript:return true;" style="overflow-x:hidden">
+							<label for="search" class="bg-icon"></label>
+							<input type="search" id="search" placeholder="请输入您要找的商品" maxLength="30" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="loading">
+			<div class="errInfo"><img src="images/notFound.png" />
+				<p>出错啦，请稍后再试</p>
+			</div>
+		</div>
+		<script src="lib/wpCommon.js"></script>
+		<script type="text/javascript" src="lib/jquery-2.1.0.min.js"></script>
+		<script	src="js/scan_result.js"></script>
+	</body>
+</html>

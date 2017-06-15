@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />	
+		<title>正品控</title>
+	</head>
+	<link rel="stylesheet" href="css/shareRebate.css" />
+	<script>
+		if(document.documentElement.clientWidth>760){
+			document.documentElement.style.fontSize=54+"px";
+		}else{
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		}
+		window.addEventListener("resize",function(){
+			if(document.documentElement.clientWidth>760){
+				document.documentElement.style.fontSize=54+"px";
+			}else{
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+			}
+		},false);
+	</script>
+	<body>
+		<div id="wrap">
+			<div id="content">
+				<div id="valueCont">
+					<div class="user">您的好友<span id="phoneNumber">15212341234</span>分享给您一张“<span class="brandName"></span>”门店优惠券，<span class="value">面值20元</span></div>
+					<div class="red">
+						<div class="redLeft">
+							<div class="rmb">
+								<p class="moneyL">20</p><span></span>
+								<div class="moneyR">
+									<p class="rmbYellow">RMB</p>
+									<p class="rmbQ">优惠券</p>
+								</div>
+								
+							</div>
+							<div class="action">	
+								<p class="activeTime">时间: <span class="article" id="act_time">2017.3.2至2017.4.2</span></p> 
+							</div>
+							<div class="address">		
+								<p class="place">地点: </p> <span class="article" id="act_place">余杭区余杭区五常大道</span>	 
+							</div>
+						</div>
+						<div class="redRight">领取</div>
+					</div>
+					<a id="addressMore" href="storeAddress.html">点击查看更多门店地址 ></a>
+					
+					<p class="cheap">优惠产品</p>
+					<div class="cheapBox">
+						<dl class="product-items" style="display: none;" dataId="">
+							<dt>
+								<img src="" class="images"/>
+							</dt>
+							<dd>
+								<i class="yellow"></i>
+								<p class="series">小钢炮 东风p系列</p>
+								<p class="type">P6035s</p>
+							</dd>
+						</dl>						
+					</div>
+					<div id="pullUp" class="scroller-pullUp" style="display: none;">
+			            <p></p>
+			           	<span>上拉加载</span>
+			        </div>
+				</div>
+				<div id="productCont">
+					<div class="productImg"><img src="" alt="" /></div>
+					<div class="get">领取您好友的优惠券，享受优惠</div>
+					<form action="javascript:;" style="overflow-x:hidden"><input class="import" type="number" placeholder="输入手机号领取"  oninput="if(value.length>11)value=value.slice(0,11)" /></form>
+					<a id="getFare" href="javascript:;">领取优惠券</a>
+				</div>
+				<div id="useValueCont">
+					<div class="productImg"><img src="" alt="" /></div>
+					<div class="get">领取您好友的优惠券，享受优惠</div>
+					<p class="put">一张"<span class="brandName"></span>"优惠券，已放入您的正品控账户</p>
+					<p class="local">当前您的手机号为：<span id="number">15212341234</span></p>
+					<a id="downLoad" href="javascript:;">下载"正品控"APP，使用优惠券</a>
+				</div>
+			</div>
+			<div class="loading">
+				<div class="loadEffect"> 
+					<p></p>
+					<span>Loading</span> 
+				</div>
+				<div class="middle" style="display:none"><img src="images/scan_net.png"/><p>网络异常，点击<a href="javascript:;" id="wpReload">重新加载</a></p></div>
+			</div>
+		</div>		
+	</body>
+	<script type="text/javascript" src="lib/jquery-2.1.0.min.js" ></script>
+	<script type="text/javascript" src="lib/iscroll-probe.js" ></script>
+	<script type="text/javascript" src="lib/wpCommon.js"></script>
+	<script>
+		
+		var Toast = function(config){  
+		    this.context = config.context==null?$('body'):config.context;//上下文  
+		    this.message = config.message;//显示内容  
+		    this.time = config.time==null?3000:config.time;//持续时间  
+		    this.left = config.left;//距容器左边的距离  
+		    this.top = config.top;//距容器上方的距离  
+		    this.init();  
+		}  
+		var msgEntity;  
+		Toast.prototype = {  
+		    //初始化显示的位置内容等  
+		    init : function(){  
+		        $("#toastMessage").remove();  
+		        //设置消息体  
+		        var msgDIV = new Array();  
+		        msgDIV.push('<div id="toastMessage">');  
+		        msgDIV.push('<span>'+this.message+'</span>');  
+		        msgDIV.push('</div>');  
+		        msgEntity = $(msgDIV.join('')).appendTo(this.context);  
+		        //设置消息样式  
+		        var left = this.left == null ? this.context.width()/2-msgEntity.find('span').width()/2-20 : this.left;  
+		        var bottom = this.bottom == null ? '20px' : this.bottom;  
+		        msgEntity.css({position:'absolute',bottom:bottom,'z-index':'99',left:left,'background-color':'black',color:'white','font-size':'12px',padding:'10px',margin:'10px'});  
+//		        msgEntity.hide();  
+		    },  
+		    //显示动画  
+		    show :function(){  
+		        msgEntity.fadeIn(this.time/2);  
+		        msgEntity.fadeOut(this.time/2);  
+		    }  
+		          
+		}
+		
+		//微信中设置title
+		document.setTitle = function(t) {
+	        document.title = t;
+	        var i = document.createElement('iframe');
+	        i.src = '/favicon.ico';
+	        i.style.display = 'none';
+	        i.onload = function() {
+	          setTimeout(function(){
+	            i.remove();
+	          }, 9)
+	        }
+	        document.body.appendChild(i);
+	      }
+		
+		//领取跳转页面
+		$(".red").click(function(){
+			$('#productCont').show().siblings().hide();
+		})
+		
+		$(".import").on('keyup',function(){
+			var value=$(this).val();
+			if((/^1[34578]\d{9}$/).test(value)&&value.length==11){
+				$("#getFare").css('background','#D6A41D')
+			}else{
+				$("#getFare").css('background','ccc')
+			}
+		})
+		//领取优惠券跳转页面
+		var urlRequest=getUrlRequest();
+		$(function(){			
+			var wpwlRebate={
+				getData:function(index){
+					var that=this;
+					$.ajax({
+//						url: "JSON/list.json",
+						url:wpCommon.Url+"/share/product/getActivityProducts",
+						type: "post",
+						data:{
+							"activityId":urlRequest.aid,
+							"suspectId":urlRequest.sid,
+							"pageIndex":index,
+							"pageSize":10
+						},
+						timeout: 10000,
+						success: function(res) {
+							if (res.errMsg == "找不到指定的产品，请稍后再试，谢谢！" || res.errMsg == "找不到指定的产品") {
+								$(".loadEffect").hide();
+								$(".middle").show().find("p").html("该产品已下架").siblings("img").attr("src", "images/notFound.png")
+							} else {
+								try{
+									if(res.data.list.length>=10){
+										that.activityInfo = res.data;
+										that.cheapGoods(10);
+									}else{
+										that.activityInfo = res.data;
+										that.cheapGoods(res.data.list.length);
+										lock=false;
+									}
+								}catch(e){
+									
+								}
+							} 
+						},
+						error: function(jqXHR) {
+							$(".loadEffect").hide().siblings(".middle").show()
+						}
+					})
+				},
+				cheapGoods:function(size){	
+					var productInfo=this.activityInfo.list;
+					for(var i=0;i<size;i++){
+						var ele=$(".product-items").eq(0).clone();
+						ele.find('.series').html(productInfo[i].productName).siblings('p').html(productInfo[i].standard);
+						ele.show().find('img').attr('src',productInfo[i].iconUrl);
+						ele.attr('dataId',productInfo[i].productId)
+						$(".cheapBox").append(ele);
+					}
+					
+					myScroll.refresh();
+					$("#pullUp").hide();
+					$('img').each(function(){
+						var dfd=$.Deferred();
+						$(this).bind('load',function(){
+					 		dfd.resolve();
+					 	}).bind('error',function(){
+					 		$(this).attr('src',"images/default_error2.png")
+					 	})
+					})
+					isScroll=true;
+				}
+			}
+			
+				
+				
+				$.ajax({
+					url:wpCommon.Url+"/share/activityDiscount/getCouponDetail",
+					data:{
+						"shareCouponId":urlRequest.rid
+					},
+					type:'post',
+					beforeSend:function(){
+						$(".loadEffect").show().siblings(".middle").hide();
+					},
+					success:function(res){
+						if(res.errCode=="400"||res.errCode=="500"||res.errCode=="600"||res.errCode=="404"){
+							$(".loadEffect").hide();
+							$(".middle").show().find("p").html("该活动已失效,去发现新的活动吧").siblings("img").attr("src", "images/scan_failed.png")	
+						}else{
+							wpwlRebate.getData(1);
+							var actData=res.data;
+
+							$("#act_time").html(actData.gmtStart+"至"+actData.gmtEnd)
+							$("#phoneNumber").html(actData.mobile.replace(/(\d{3})\d{4}(\d{4})/, '$1****$2'));
+							$('.brandName').eq(0).html(actData.brandName);
+							$('.brandName').eq(1).html(actData.brandName+"产品");
+							$("#act_place").html(actData.address[0]);
+							$(".productImg img").attr('src',actData.picUrl);
+							document.setTitle(actData.brandName)
+							if(actData.address[1]){
+								$("#addressMore").css('display','block');
+								localStorage.setItem('storeAddress',JSON.stringify(actData.address))
+								$(".cheap").css("marginTop",'0.4rem')
+							}
+							if(actData.preferentialWay=="1"){
+								var disct=actData.preferentialDiscount;
+								if(disct.slice(2)=="0"){
+									disct=disct.slice(0,1)
+								}
+								$(".value").html("折扣"+disct+"折");
+								$(".moneyL").html(disct).siblings('span').html('折');
+								$(".rmbYellow").html('DISCT').siblings(".rmbQ").html("折扣券");
+								
+							}else{
+								$(".value").html("面值"+actData.preferentialAmount+"元");
+								$(".moneyL").html(actData.preferentialAmount);
+							}
+							$(".loading").hide();
+							$("#content").show();
+							$(".loading").hide().siblings('#content').show()
+						}
+						
+					},
+					error:function(){
+						$(".loadEffect").hide().siblings(".middle").show()	
+					}
+				})
+					var activityInfo=this.activity;
+				
+				var myScroll = new IScroll("#content", {
+					probeType:2,
+					checkDOMChanges:true,
+			 		click:true,
+			 		disableTouch:false,
+					disablePointer:true
+				});
+				
+				//上拉加载，num为页码数。
+				var num=2;
+			 	var lock=true;
+			 	var isScroll=true;
+				myScroll.on("scroll", function () {
+			        if (myScroll.maxScrollY - myScroll.y >= 40) {
+			            $("#pullUp").show()
+			        }
+			        $(document).on("touchend", function () {
+			            if (isScroll) {
+			                if (myScroll.maxScrollY - myScroll.y >= 40) {
+			                    if (lock) {
+			                        wpwlRebate.getData(num)
+			                    } else {
+			                        $("#pullUp").hide()
+			                    }
+			                    num++;
+			                    isScroll = false;
+			                    return
+			                }
+			            }
+			            if (!lock) {
+			                $("#pullUp").hide();
+			            }
+			        })
+			    });
+			    $("#wpReload").click(function(){
+					wpwlRebate.getData();
+				})
+			 
+			})
+			var u = navigator.userAgent;
+			if(u.indexOf("Android") > -1 || u.indexOf("Linux") > -1){
+				window.addEventListener("resize", function() {
+			         if(document.activeElement.tagName=="INPUT" || document.activeElement.tagName=="TEXTAREA") {
+			            window.setTimeout(function() {
+			                 document.activeElement.scrollIntoViewIfNeeded();
+			             },0);
+			         }
+		    	})
+			}	
+			
+			
+			$("#getFare").click(function(){
+				$('.import').blur();
+				var that=this;
+				if((/^1[34578]\d{9}$/).test($(".import").val())){
+					if(!this.flag){
+						$.ajax({
+							url:wpCommon.Url+"/share/activityDiscount/receiveCoupon",
+							type:'post',
+							data:{
+								"shareCouponId":urlRequest.rid,
+								"mobile":$(".import").val(),
+								"activityId":urlRequest.aid
+							},
+							success:function(res){
+								that.flag=false;
+								if(res.success){
+									$('#useValueCont').show().siblings().hide();
+									$("#number").html($(".import").val());
+								}else{
+									if(res.errCode=="404"){
+										new Toast({context:$('body'),message:'抱歉，该活动已失效'}).show(); 
+									}else if(res.errCode=="500"){
+										new Toast({context:$('body'),message:'该手机号已领取优惠券，请重新输入'}).show(); 
+									}
+								}
+								
+							},
+							error:function(){
+								
+							}
+						})
+						this.flag=true;
+					}
+				}
+			})
+		
+		$("#downLoad").click(function(){
+			window.location.href = "http://www.wopuwulian.com/app.html"
+		})
+		
+		$('.cheapBox').on('click',".product-items",function(){  
+	  		window.location.href='../zpkH5/detail.html?type=2&productId='+$(this).attr("dataId");
+		});
+	
+	</script>
+</html>

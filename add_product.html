@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>正品控-添加产品</title>	
+	</head>
+	<link rel="stylesheet" href="css/add_product.css" />
+	<script type="text/javascript">
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		window.addEventListener("resize",function(){
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+		},false);
+	</script>
+	<body>
+		<!---->
+		<div id="box">
+			<div class="top">
+				<i class="bg-icon back" id="back" onclick="window.history.back()"></i>
+				<div>添加产品</div>
+			</div>
+			<div id="content">
+				<div class="content-cont">
+					<!--<p class="com series">弓剑系列(ARCSABER)</p>
+					<ul class="conts">
+						<li class="com cont">ARCSABER-TF3</li>
+						<li class="com cont">ARCSABER 11</li>
+						<li class="com cont">ARCSABER FB</li>
+						<li class="com cont">ARCSABER 9FL</li>
+					</ul>-->
+				</div>
+			</div>
+			<div class="loading">
+				<div class="middle"><img src="images/scan_net.png" />
+					<p>网络异常，点击
+						<a href="javascript:;" id="wpReload">重新加载</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="lib/jquery-2.1.0.min.js" ></script>
+	<script type="text/javascript" src="lib/wpCommon.js" ></script>
+	<script type="text/javascript" src="js/add_product.js" ></script>
+</html>

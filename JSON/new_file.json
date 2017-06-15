@@ -1,0 +1,2646 @@
+{
+	"param": [
+		{
+			"name": "基本参数",
+			"paramitems": [
+				{
+					"name": "车型名称",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "WEY VV7 2017款 VV7c 豪华型"
+						}, {
+							"specid": 30251,
+							"value": "WEY VV7 2017款 VV7c 超豪型"
+						}, {
+							"specid": 30253,
+							"value": "WEY VV7 2017款 VV7s 超豪型"
+						}
+					]
+				}, {
+					"name": "厂商指导价(元)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "16.78万"
+						}, {
+							"specid": 30251,
+							"value": "17.58万"
+						}, {
+							"specid": 30253,
+							"value": "17.78万"
+						}
+					]
+				}, {
+					"name": "厂商",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "长城汽车"
+						}, {
+							"specid": 30251,
+							"value": "长城汽车"
+						}, {
+							"specid": 30253,
+							"value": "长城汽车"
+						}
+					]
+				}, {
+					"name": "级别",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "中型SUV"
+						}, {
+							"specid": 30251,
+							"value": "中型SUV"
+						}, {
+							"specid": 30253,
+							"value": "中型SUV"
+						}
+					]
+				}, {
+					"name": "发动机",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "2.0T 234马力 L4"
+						}, {
+							"specid": 30251,
+							"value": "2.0T 234马力 L4"
+						}, {
+							"specid": 30253,
+							"value": "2.0T 234马力 L4"
+						}
+					]
+				}, {
+					"name": "变速箱",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "7挡双离合"
+						}, {
+							"specid": 30251,
+							"value": "7挡双离合"
+						}, {
+							"specid": 30253,
+							"value": "7挡双离合"
+						}
+					]
+				}, {
+					"name": "长*宽*高(mm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "4749*1931*1655"
+						}, {
+							"specid": 30251,
+							"value": "4749*1931*1655"
+						}, {
+							"specid": 30253,
+							"value": "4765*1931*1655"
+						}
+					]
+				}, {
+					"name": "车身结构",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "5门5座SUV"
+						}, {
+							"specid": 30251,
+							"value": "5门5座SUV"
+						}, {
+							"specid": 30253,
+							"value": "5门5座SUV"
+						}
+					]
+				}, {
+					"name": "最高车速(km/h)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "205"
+						}, {
+							"specid": 30251,
+							"value": "205"
+						}, {
+							"specid": 30253,
+							"value": "205"
+						}
+					]
+				}, {
+					"name": "官方0-100km/h加速(s)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "9.8"
+						}, {
+							"specid": 30251,
+							"value": "9.8"
+						}, {
+							"specid": 30253,
+							"value": "9.8"
+						}
+					]
+				}, {
+					"name": "实测0-100km/h加速(s)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "实测100-0km/h制动(m)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "实测油耗(L/100km)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "工信部综合油耗(L/100km)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "8"
+						}, {
+							"specid": 30251,
+							"value": "8"
+						}, {
+							"specid": 30253,
+							"value": "8"
+						}
+					]
+				}, {
+					"name": "实测离地间隙(mm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "整车质保",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "三年或10万公里"
+						}, {
+							"specid": 30251,
+							"value": "三年或10万公里"
+						}, {
+							"specid": 30253,
+							"value": "三年或10万公里"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "车身",
+			"paramitems": [
+				{
+					"name": "长度(mm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "4749"
+						}, {
+							"specid": 30251,
+							"value": "4749"
+						}, {
+							"specid": 30253,
+							"value": "4765"
+						}
+					]
+				}, {
+					"name": "宽度(mm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "1931"
+						}, {
+							"specid": 30251,
+							"value": "1931"
+						}, {
+							"specid": 30253,
+							"value": "1931"
+						}
+					]
+				}, {
+					"name": "高度(mm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "1655"
+						}, {
+							"specid": 30251,
+							"value": "1655"
+						}, {
+							"specid": 30253,
+							"value": "1655"
+						}
+					]
+				}, {
+					"name": "轴距(mm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "2950"
+						}, {
+							"specid": 30251,
+							"value": "2950"
+						}, {
+							"specid": 30253,
+							"value": "2950"
+						}
+					]
+				}, {
+					"name": "前轮距(mm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "后轮距(mm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "最小离地间隙(mm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "180"
+						}, {
+							"specid": 30251,
+							"value": "180"
+						}, {
+							"specid": 30253,
+							"value": "180"
+						}
+					]
+				}, {
+					"name": "整备质量(kg)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "1960"
+						}, {
+							"specid": 30251,
+							"value": "1960"
+						}, {
+							"specid": 30253,
+							"value": "1985"
+						}
+					]
+				}, {
+					"name": "车身结构",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "SUV"
+						}, {
+							"specid": 30251,
+							"value": "SUV"
+						}, {
+							"specid": 30253,
+							"value": "SUV"
+						}
+					]
+				}, {
+					"name": "车门数(个)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "5"
+						}, {
+							"specid": 30251,
+							"value": "5"
+						}, {
+							"specid": 30253,
+							"value": "5"
+						}
+					]
+				}, {
+					"name": "座位数(个)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "5"
+						}, {
+							"specid": 30251,
+							"value": "5"
+						}, {
+							"specid": 30253,
+							"value": "5"
+						}
+					]
+				}, {
+					"name": "油箱容积(L)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "65"
+						}, {
+							"specid": 30251,
+							"value": "65"
+						}, {
+							"specid": 30253,
+							"value": "65"
+						}
+					]
+				}, {
+					"name": "行李厢容积(L)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "306-1164"
+						}, {
+							"specid": 30251,
+							"value": "306-1164"
+						}, {
+							"specid": 30253,
+							"value": "306-1164"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "发动机",
+			"paramitems": [
+				{
+					"name": "发动机型号",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "4C20A"
+						}, {
+							"specid": 30251,
+							"value": "4C20A"
+						}, {
+							"specid": 30253,
+							"value": "4C20A"
+						}
+					]
+				}, {
+					"name": "排量(mL)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "进气形式",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "涡轮增压"
+						}, {
+							"specid": 30251,
+							"value": "涡轮增压"
+						}, {
+							"specid": 30253,
+							"value": "涡轮增压"
+						}
+					]
+				}, {
+					"name": "气缸排列形式",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "L"
+						}, {
+							"specid": 30251,
+							"value": "L"
+						}, {
+							"specid": 30253,
+							"value": "L"
+						}
+					]
+				}, {
+					"name": "气缸数(个)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "4"
+						}, {
+							"specid": 30251,
+							"value": "4"
+						}, {
+							"specid": 30253,
+							"value": "4"
+						}
+					]
+				}, {
+					"name": "每缸气门数(个)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "4"
+						}, {
+							"specid": 30251,
+							"value": "4"
+						}, {
+							"specid": 30253,
+							"value": "4"
+						}
+					]
+				}, {
+					"name": "压缩比",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "配气机构",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "DOHC"
+						}, {
+							"specid": 30251,
+							"value": "DOHC"
+						}, {
+							"specid": 30253,
+							"value": "DOHC"
+						}
+					]
+				}, {
+					"name": "缸径(mm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "行程(mm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "最大马力(Ps)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "234"
+						}, {
+							"specid": 30251,
+							"value": "234"
+						}, {
+							"specid": 30253,
+							"value": "234"
+						}
+					]
+				}, {
+					"name": "最大功率(kW)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "172"
+						}, {
+							"specid": 30251,
+							"value": "172"
+						}, {
+							"specid": 30253,
+							"value": "172"
+						}
+					]
+				}, {
+					"name": "最大功率转速(rpm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "5500"
+						}, {
+							"specid": 30251,
+							"value": "5500"
+						}, {
+							"specid": 30253,
+							"value": "5500"
+						}
+					]
+				}, {
+					"name": "最大扭矩(N·m)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "360"
+						}, {
+							"specid": 30251,
+							"value": "360"
+						}, {
+							"specid": 30253,
+							"value": "360"
+						}
+					]
+				}, {
+					"name": "最大扭矩转速(rpm)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "2200-4000"
+						}, {
+							"specid": 30251,
+							"value": "2200-4000"
+						}, {
+							"specid": 30253,
+							"value": "2200-4000"
+						}
+					]
+				}, {
+					"name": "发动机特有技术",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "双VVT"
+						}, {
+							"specid": 30251,
+							"value": "双VVT"
+						}, {
+							"specid": 30253,
+							"value": "双VVT"
+						}
+					]
+				}, {
+					"name": "燃料形式",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "汽油"
+						}, {
+							"specid": 30251,
+							"value": "汽油"
+						}, {
+							"specid": 30253,
+							"value": "汽油"
+						}
+					]
+				}, {
+					"name": "燃油标号",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "92号"
+						}, {
+							"specid": 30251,
+							"value": "92号"
+						}, {
+							"specid": 30253,
+							"value": "92号"
+						}
+					]
+				}, {
+					"name": "供油方式",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "直喷"
+						}, {
+							"specid": 30251,
+							"value": "直喷"
+						}, {
+							"specid": 30253,
+							"value": "直喷"
+						}
+					]
+				}, {
+					"name": "缸盖材料",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "铝"
+						}, {
+							"specid": 30251,
+							"value": "铝"
+						}, {
+							"specid": 30253,
+							"value": "铝"
+						}
+					]
+				}, {
+					"name": "缸体材料",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "铁"
+						}, {
+							"specid": 30251,
+							"value": "铁"
+						}, {
+							"specid": 30253,
+							"value": "铁"
+						}
+					]
+				}, {
+					"name": "环保标准",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "国V"
+						}, {
+							"specid": 30251,
+							"value": "国V"
+						}, {
+							"specid": 30253,
+							"value": "国V"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "变速箱",
+			"paramitems": [
+				{
+					"name": "简称",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "7挡双离合"
+						}, {
+							"specid": 30251,
+							"value": "7挡双离合"
+						}, {
+							"specid": 30253,
+							"value": "7挡双离合"
+						}
+					]
+				}, {
+					"name": "挡位个数",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "7"
+						}, {
+							"specid": 30251,
+							"value": "7"
+						}, {
+							"specid": 30253,
+							"value": "7"
+						}
+					]
+				}, {
+					"name": "变速箱类型",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "双离合变速箱(DCT)"
+						}, {
+							"specid": 30251,
+							"value": "双离合变速箱(DCT)"
+						}, {
+							"specid": 30253,
+							"value": "双离合变速箱(DCT)"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "底盘转向",
+			"paramitems": [
+				{
+					"name": "驱动方式",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "前置前驱"
+						}, {
+							"specid": 30251,
+							"value": "前置前驱"
+						}, {
+							"specid": 30253,
+							"value": "前置前驱"
+						}
+					]
+				}, {
+					"name": "前悬架类型",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "麦弗逊式独立悬架"
+						}, {
+							"specid": 30251,
+							"value": "麦弗逊式独立悬架"
+						}, {
+							"specid": 30253,
+							"value": "麦弗逊式独立悬架"
+						}
+					]
+				}, {
+					"name": "后悬架类型",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "多连杆独立悬架"
+						}, {
+							"specid": 30251,
+							"value": "多连杆独立悬架"
+						}, {
+							"specid": 30253,
+							"value": "多连杆独立悬架"
+						}
+					]
+				}, {
+					"name": "助力类型",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "电动助力"
+						}, {
+							"specid": 30251,
+							"value": "电动助力"
+						}, {
+							"specid": 30253,
+							"value": "电动助力"
+						}
+					]
+				}, {
+					"name": "车体结构",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "承载式"
+						}, {
+							"specid": 30251,
+							"value": "承载式"
+						}, {
+							"specid": 30253,
+							"value": "承载式"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "车轮制动",
+			"paramitems": [
+				{
+					"name": "前制动器类型",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "通风盘式"
+						}, {
+							"specid": 30251,
+							"value": "通风盘式"
+						}, {
+							"specid": 30253,
+							"value": "通风盘式"
+						}
+					]
+				}, {
+					"name": "后制动器类型",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "通风盘式"
+						}, {
+							"specid": 30251,
+							"value": "通风盘式"
+						}, {
+							"specid": 30253,
+							"value": "通风盘式"
+						}
+					]
+				}, {
+					"name": "驻车制动类型",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "电子驻车"
+						}, {
+							"specid": 30251,
+							"value": "电子驻车"
+						}, {
+							"specid": 30253,
+							"value": "电子驻车"
+						}
+					]
+				}, {
+					"name": "前轮胎规格",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "235/55 R20"
+						}, {
+							"specid": 30251,
+							"value": "235/55 R20"
+						}, {
+							"specid": 30253,
+							"value": "235/55 R20"
+						}
+					]
+				}, {
+					"name": "后轮胎规格",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "235/55 R20"
+						}, {
+							"specid": 30251,
+							"value": "235/55 R20"
+						}, {
+							"specid": 30253,
+							"value": "235/55 R20"
+						}
+					]
+				}, {
+					"name": "备胎规格",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "非全尺寸"
+						}, {
+							"specid": 30251,
+							"value": "非全尺寸"
+						}, {
+							"specid": 30253,
+							"value": "非全尺寸"
+						}
+					]
+				}
+			]
+		}
+	],
+	"config": [
+		{
+			"name": "主/被动安全装备",
+			"configitems": [
+				{
+					"name": "主/副驾驶座安全气囊",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "主●\u0026nbsp;/\u0026nbsp;副●"
+						}, {
+							"specid": 30251,
+							"value": "主●\u0026nbsp;/\u0026nbsp;副●"
+						}, {
+							"specid": 30253,
+							"value": "主●\u0026nbsp;/\u0026nbsp;副●"
+						}
+					]
+				}, {
+					"name": "前/后排侧气囊",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后-"
+						}, {
+							"specid": 30251,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后-"
+						}, {
+							"specid": 30253,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后-"
+						}
+					]
+				}, {
+					"name": "前/后排头部气囊(气帘)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}, {
+							"specid": 30251,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}, {
+							"specid": 30253,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}
+					]
+				}, {
+					"name": "膝部气囊",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "胎压监测装置",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "零胎压继续行驶",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "安全带未系提示",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "ISOFIX儿童座椅接口",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "ABS防抱死",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "制动力分配(EBD/CBC等)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "刹车辅助(EBA/BAS/BA等)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "牵引力控制(ASR/TCS/TRC等)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "车身稳定控制(ESC/ESP/DSC等)",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "并线辅助",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "车道偏离预警系统",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "主动刹车/主动安全系统",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "夜视系统",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "辅助/操控配置",
+			"configitems": [
+				{
+					"name": "前/后驻车雷达",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}, {
+							"specid": 30251,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}, {
+							"specid": 30253,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}
+					]
+				}, {
+					"name": "倒车视频影像",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "全景摄像头",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "定速巡航",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "自适应巡航",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "自动泊车入位",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "发动机启停技术",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "上坡辅助",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "自动驻车",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "陡坡缓降",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "可变悬架",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "空气悬架",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "可变转向比",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "前桥限滑差速器/差速锁",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "中央差速器锁止功能",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "后桥限滑差速器/差速锁",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "整体主动转向系统",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "外部/防盗配置",
+			"configitems": [
+				{
+					"name": "电动天窗",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "全景天窗",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "运动外观套件",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "铝合金轮圈",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "电动吸合门",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "侧滑门",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "电动后备厢",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "感应后备厢",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "车顶行李架",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "发动机电子防盗",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "车内中控锁",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "遥控钥匙",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "无钥匙启动系统",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "无钥匙进入系统",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "内部配置",
+			"configitems": [
+				{
+					"name": "真皮方向盘",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "方向盘调节",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "上下+前后调节"
+						}, {
+							"specid": 30251,
+							"value": "上下+前后调节"
+						}, {
+							"specid": 30253,
+							"value": "上下+前后调节"
+						}
+					]
+				}, {
+					"name": "方向盘电动调节",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "多功能方向盘",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "方向盘换挡",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "方向盘加热",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "方向盘记忆",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "行车电脑显示屏",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "全液晶仪表盘",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "HUD抬头数字显示",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "座椅配置",
+			"configitems": [
+				{
+					"name": "座椅材质",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "仿皮"
+						}, {
+							"specid": 30251,
+							"value": "仿皮"
+						}, {
+							"specid": 30253,
+							"value": "仿皮"
+						}
+					]
+				}, {
+					"name": "运动风格座椅",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "座椅高低调节",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "腰部支撑调节",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "肩部支撑调节",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "主/副驾驶座电动调节",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "主●\u0026nbsp;/\u0026nbsp;副●"
+						}, {
+							"specid": 30251,
+							"value": "主●\u0026nbsp;/\u0026nbsp;副●"
+						}, {
+							"specid": 30253,
+							"value": "主●\u0026nbsp;/\u0026nbsp;副●"
+						}
+					]
+				}, {
+					"name": "第二排靠背角度调节",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "第二排座椅移动",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "后排座椅电动调节",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "电动座椅记忆",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "前/后排座椅加热",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后-"
+						}, {
+							"specid": 30251,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后-"
+						}, {
+							"specid": 30253,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后-"
+						}
+					]
+				}, {
+					"name": "前/后排座椅通风",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "前/后排座椅按摩",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "第三排座椅",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "后排座椅放倒方式",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "比例放倒"
+						}, {
+							"specid": 30251,
+							"value": "比例放倒"
+						}, {
+							"specid": 30253,
+							"value": "比例放倒"
+						}
+					]
+				}, {
+					"name": "前/后中央扶手",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}, {
+							"specid": 30251,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}, {
+							"specid": 30253,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}
+					]
+				}, {
+					"name": "后排杯架",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "多媒体配置",
+			"configitems": [
+				{
+					"name": "GPS导航系统",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "定位互动服务",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "○"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "中控台彩色大屏",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "中控液晶屏分屏显示",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "蓝牙/车载电话",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "车载电视",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "后排液晶屏",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "220V/230V电源",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "外接音源接口",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "USB+AUX+SD卡插槽"
+						}, {
+							"specid": 30251,
+							"value": "USB+AUX+SD卡插槽"
+						}, {
+							"specid": 30253,
+							"value": "USB+AUX+SD卡插槽"
+						}
+					]
+				}, {
+					"name": "CD/DVD",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "扬声器品牌",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "扬声器数量",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "10-11喇叭"
+						}, {
+							"specid": 30251,
+							"value": "10-11喇叭"
+						}, {
+							"specid": 30253,
+							"value": "10-11喇叭"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "灯光配置",
+			"configitems": [
+				{
+					"name": "近光灯",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "LED"
+						}, {
+							"specid": 30251,
+							"value": "LED"
+						}, {
+							"specid": 30253,
+							"value": "LED"
+						}
+					]
+				}, {
+					"name": "远光灯",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "LED"
+						}, {
+							"specid": 30251,
+							"value": "LED"
+						}, {
+							"specid": 30253,
+							"value": "LED"
+						}
+					]
+				}, {
+					"name": "LED日间行车灯",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "自适应远近光",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "自动头灯",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "转向辅助灯",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "转向头灯",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "前雾灯",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "大灯高度可调",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "大灯清洗装置",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "车内氛围灯",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "玻璃/后视镜",
+			"configitems": [
+				{
+					"name": "前/后电动车窗",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}, {
+							"specid": 30251,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}, {
+							"specid": 30253,
+							"value": "前●\u0026nbsp;/\u0026nbsp;后●"
+						}
+					]
+				}, {
+					"name": "车窗防夹手功能",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "防紫外线/隔热玻璃",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "后视镜电动调节",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "后视镜加热",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "内/外后视镜自动防眩目",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "内●\u0026nbsp;/\u0026nbsp;外●"
+						}, {
+							"specid": 30251,
+							"value": "内●\u0026nbsp;/\u0026nbsp;外●"
+						}, {
+							"specid": 30253,
+							"value": "内●\u0026nbsp;/\u0026nbsp;外●"
+						}
+					]
+				}, {
+					"name": "后视镜电动折叠",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "后视镜记忆",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "后风挡遮阳帘",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "后排侧遮阳帘",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "后排侧隐私玻璃",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "遮阳板化妆镜",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "后雨刷",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "感应雨刷",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}
+			]
+		}, {
+			"name": "空调/冰箱",
+			"configitems": [
+				{
+					"name": "空调控制方式",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "自动●"
+						}, {
+							"specid": 30251,
+							"value": "自动●"
+						}, {
+							"specid": 30253,
+							"value": "自动●"
+						}
+					]
+				}, {
+					"name": "后排独立空调",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}, {
+					"name": "后座出风口",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "温度分区控制",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "车内空气调节/花粉过滤",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "●"
+						}, {
+							"specid": 30251,
+							"value": "●"
+						}, {
+							"specid": 30253,
+							"value": "●"
+						}
+					]
+				}, {
+					"name": "车载冰箱",
+					"valueitems": [
+						{
+							"specid": 30250,
+							"value": "-"
+						}, {
+							"specid": 30251,
+							"value": "-"
+						}, {
+							"specid": 30253,
+							"value": "-"
+						}
+					]
+				}
+			]
+		}
+	],
+	"search": "\u003cdl\u003e\u003cdt\u003e年\u003cem class=\"halfword\"\u003e\u003c/em\u003e代\u003cem class=\"halfword\"\u003e\u003c/em\u003e款：\u003c/dt\u003e\u003cdd\u003e\u003cspan class=\"item\"\u003e2017款\u003c/span\u003e\u003c/dd\u003e\u003c/dl\u003e\u003cdl\u003e\u003cdt\u003e发\u003cem class=\"halfword\"\u003e\u003c/em\u003e动\u003cem class=\"halfword\"\u003e\u003c/em\u003e机：\u003c/dt\u003e\u003cdd\u003e\u003cspan class=\"item\"\u003e2.0T\u003c/span\u003e\u003c/dd\u003e\u003c/dl\u003e\u003cdl\u003e\u003cdt\u003e车身结构：\u003c/dt\u003e\u003cdd\u003e\u003cspan class=\"item\"\u003eSUV\u003c/span\u003e\u003c/dd\u003e\u003c/dl\u003e\u003cdl\u003e\u003cdt\u003e座\u003cem class=\"halfword\"\u003e\u003c/em\u003e位\u003cem class=\"halfword\"\u003e\u003c/em\u003e数：\u003c/dt\u003e\u003cdd\u003e\u003cspan class=\"item\"\u003e5座\u003c/span\u003e\u003c/dd\u003e\u003c/dl\u003e\u003cdl\u003e\u003cdt\u003e变\u003cem class=\"halfword\"\u003e\u003c/em\u003e速\u003cem class=\"halfword\"\u003e\u003c/em\u003e箱：\u003c/dt\u003e\u003cdd\u003e\u003cspan class=\"item\"\u003e双离合\u003c/span\u003e\u003c/dd\u003e\u003c/dl\u003e\u003cdl\u003e\u003cdt\u003e驱动方式：\u003c/dt\u003e\u003cdd\u003e\u003cspan class=\"item\"\u003e两驱\u003c/span\u003e\u003c/dd\u003e\u003c/dl\u003e\u003cdl\u003e\u003cdt\u003e能\u003cem class=\"twoword\"\u003e\u003c/em\u003e源：\u003c/dt\u003e\u003cdd\u003e\u003cspan class=\"item\"\u003e汽油\u003c/span\u003e\u003c/dd\u003e\u003c/dl\u003e"
+}
